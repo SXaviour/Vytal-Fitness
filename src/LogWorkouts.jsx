@@ -27,7 +27,7 @@ function LogWorkouts() {
   useEffect(() => {
     const fetchLogs = async () => {
       try {
-        const res = await fetch("http://localhost:3009/api/logs", {
+        const res = await fetch("https://vytal-backend-f2j5.onrender.com/api/logs", {
           credentials: "include",
         });
         if (!res.ok) throw new Error("Failed to fetch logs");

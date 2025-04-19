@@ -37,7 +37,7 @@ function App() {
   // Logout: call the logout API (if applicable), then clear state and localStorage.
   const handleLogout = async () => {
     try {
-      await fetch("https://vytal-fitness-app-qq9j.onrender.com/api/auth/logout", {
+      await fetch("https://vytal-backend-f2j5.onrender.com/api/auth/logout", {
         method: "POST",
         credentials: "include",
       });
