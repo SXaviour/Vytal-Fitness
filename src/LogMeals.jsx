@@ -62,7 +62,7 @@ function LogMeals() {
     const newMeal = { mealName, calories: Number(calories), date: dateKey };
 
     try {
-      const response = await fetch("http://localhost:3009/api/meals", {
+      const response = await fetch("https://vytal-backend-f2j5.onrender.com/api/meals", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         credentials: "include",

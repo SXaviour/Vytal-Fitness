@@ -81,7 +81,7 @@ function LogWorkouts() {
     };
 
     try {
-      const response = await fetch("http://localhost:3009/api/logs", {
+      const response = await fetch("https://vytal-backend-f2j5.onrender.com/api/logs", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         credentials: "include",
