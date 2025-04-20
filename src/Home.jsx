@@ -158,7 +158,7 @@ function Home() {
               </div>
             </div>
             <br /><br />
-            <a href="#" className="btn contact-btn">Reach out to us</a>
+            <a href="/login" className="btn contact-btn">Reach out to us</a>
           </div>
         </div>
       </section>
@@ -200,7 +200,7 @@ function Home() {
               ></span>
             ))}
           </div>
-          <a href="#" className="btn review-btn">Leave a review</a>
+          <a href="/login" className="btn review-btn">Leave a review</a>
         </div>
       </section>
 
