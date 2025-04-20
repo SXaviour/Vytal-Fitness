@@ -1,5 +1,6 @@
 // Combined Home.jsx
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   // Cookie Consent Functionality (from second version)
@@ -64,7 +65,7 @@ function Home() {
           <p>
             Start your journey today with comprehensive workout and nutrition plans.
           </p>
-          <a href="/register" className="cta-btn">Get Started</a>
+          <Link to="/register" className="cta-btn">Get Started</Link>
         </div>
       </section>
 
@@ -93,7 +94,7 @@ function Home() {
               <p>
                 Keep track of your workouts and meals to stay on top of your fitness goals.
               </p>
-              <a href="/login" className="btn">Learn More</a>
+              <Link to="/login" className="btn">Learn More</Link>
             </div>
             <div className="log-images">
               <img src="/images/diethologram.jpeg" alt="Workout logging" className="log-img" />
@@ -111,7 +112,7 @@ function Home() {
               <p>
                 Stay on top of your fitness journey with real-time progress tracking. Monitor your workouts, meals, and personal records all in one place. Analyze trends, identify areas for improvement, and stay motivated with data-driven insights.
               </p>
-              <a href="/login" className="btn">View Stats</a>
+              <Link to="/login" className="btn">View Stats</Link>
             </div>
           </div>
         </div>
@@ -200,7 +201,7 @@ function Home() {
               ></span>
             ))}
           </div>
-          <a href="/login" className="btn review-btn">Leave a review</a>
+          <Link to="/login" className="btn review-btn">Leave a review</Link>
         </div>
       </section>
 
