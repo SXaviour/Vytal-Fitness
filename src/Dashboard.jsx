@@ -88,7 +88,7 @@ function Dashboard({ username = "User", onLogout }) {
           <div className="stat-card">
             <div className="stat-text">
               <p className="stat-label">Steps</p>
-              <p className="stat-value">3,200 <span className="stat-change positive">+2000</span></p>
+              <p className="stat-value">0 <span className="stat-change positive">+2000</span></p>
             </div>
             <div className="stat-icon">
               <img src={sneakerIcon} alt="Steps" />
@@ -98,7 +98,7 @@ function Dashboard({ username = "User", onLogout }) {
           <div className="stat-card">
             <div className="stat-text">
               <p className="stat-label">Calories</p>
-              <p className="stat-value">950 <span className="stat-change positive">+100</span></p>
+              <p className="stat-value">0 <span className="stat-change positive">+100</span></p>
             </div>
             <div className="stat-icon">
               <img src={calculatorIcon} alt="Calories" />
@@ -108,7 +108,7 @@ function Dashboard({ username = "User", onLogout }) {
           <div className="stat-card">
             <div className="stat-text">
               <p className="stat-label">Protein</p>
-              <p className="stat-value">+90 <span className="stat-change negative">-60</span></p>
+              <p className="stat-value">0 <span className="stat-change negative">-60</span></p>
             </div>
             <div className="stat-icon">
               <img src={meatIcon} alt="Protein" />
@@ -118,7 +118,7 @@ function Dashboard({ username = "User", onLogout }) {
           <div className="stat-card">
             <div className="stat-text">
               <p className="stat-label">Water</p>
-              <p className="stat-value">1.5 <span className="stat-change positive">-0.3</span></p>
+              <p className="stat-value">0 <span className="stat-change positive">-0.3</span></p>
             </div>
             <div className="stat-icon">
               <img src={dropsIcon} alt="Water" />
@@ -189,7 +189,7 @@ function Dashboard({ username = "User", onLogout }) {
               <div className="streak-center">
                 <div className="leaf-badge">
                   <img src="/icons/leaf.png" alt="Laurel" className="streak-leaf" />
-                  <span className="streak-days">3</span>
+                  <span className="streak-days">0</span>
                 </div>
                 <p className="streak-label">Days</p>
                 <div className="streak-quote-box">
