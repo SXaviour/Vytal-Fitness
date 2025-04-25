@@ -136,7 +136,7 @@ function Home() {
               <div className="team-member">
                 <img src="/images/saviour.jpg" alt="Saviour Akpan" className="team-img" />
                 <h3>Saviour Akpan</h3>
-                <p>Personal Trainer</p>
+                <p>UI/UX Frontend Developer</p>
                 <a href="#" className="social-link">
                   <img src="/icons/instagramicon.png" alt="Instagram" className="social-icon" />
                 </a>
