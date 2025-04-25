@@ -81,7 +81,7 @@ function Home() {
             </video>
           </div>
           <br /><br />
-          <a href="/login" className="btn">Browse Exercises</a>
+          <Link to="/login" className="btn">Browse Exercises</Link>
         </div>
       </section>
 
